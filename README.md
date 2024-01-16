@@ -1,4 +1,4 @@
-# aiowebostv
+# aiolgtv
 Python library to control LG webOS based TV devices.
 
 Based on:
@@ -10,7 +10,7 @@ Based on:
 
 ## Install
 ```bash
-pip install aiowebostv
+pip install aiolgtv
 ```
 
 ## Install from Source
@@ -24,7 +24,7 @@ pip install --upgrade .
 ```python
 import asyncio
 
-from aiowebostv import WebOsClient
+from aiolgtv import WebOsClient
 
 HOST = "192.168.1.39"
 # For first time pairing set key to None
@@ -55,7 +55,7 @@ if __name__ == "__main__":
 ```python
 import asyncio
 
-from aiowebostv import WebOsClient
+from aiolgtv import WebOsClient
 
 HOST = "192.168.1.39"
 # For first time pairing set key to None

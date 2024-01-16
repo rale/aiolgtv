@@ -1,7 +1,7 @@
 """Subscribed state updates example."""
 import asyncio
 
-from aiowebostv import WebOsClient
+from aiolgtv import WebOsClient
 
 HOST = "192.168.1.39"
 # For first time pairing set key to None

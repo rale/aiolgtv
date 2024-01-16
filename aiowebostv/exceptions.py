@@ -1,8 +1,8 @@
-"""Exceptions for aiowebostv."""
+"""Exceptions for aiolgtv."""
 
 
 class WebOsTvError(Exception):
-    """Base exception for aiowebostv."""
+    """Base exception for aiolgtv."""
 
 
 class WebOsTvPairError(WebOsTvError):

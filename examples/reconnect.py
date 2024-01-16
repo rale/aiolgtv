@@ -5,8 +5,8 @@ from datetime import datetime
 
 from websockets.exceptions import ConnectionClosed, ConnectionClosedOK
 
-from aiowebostv import WebOsClient
-from aiowebostv.exceptions import WebOsTvCommandError
+from aiolgtv import WebOsClient
+from aiolgtv.exceptions import WebOsTvCommandError
 
 WEBOSTV_EXCEPTIONS = (
     OSError,
